@@ -1,6 +1,8 @@
 # mgaf_pr
 Multimodal Game Agent Framework for Pokémon Red
 
+Descripción: "Este proyecto es un framework avanzado para la creación de agentes autónomos capaces de jugar a Pokémon Red utilizando modelos de lenguaje de gran tamaño (LLM) a través de visión artificial y lectura directa de memoria. A diferencia de los bots tradicionales basados en scripts, este agente intenta 'razonar' sus decisiones analizando visualmente el frame del emulador y contrastándolo con una jerarquía de objetivos predefinida. Utiliza PyBoy para la emulación y Groq (Llama-3-Vision) como motor de decisiones, implementando un sistema de memoria de corto plazo para evitar bucles de comportamiento y un rastreador de eventos basado en ingeniería inversa de la RAM del juego."
+
 Puntos de Éxito (Lo que funciona muy bien):
 Arquitectura de Capas: El sistema jerárquico (Estratégico -> Táctico -> Atómico) permite que la IA entienda qué está haciendo a gran escala (ej. "Ganar la medalla Roca") mientras ejecuta pasos pequeños.
 
@@ -16,3 +18,16 @@ Razonamiento Espacial en Modelos Vision: Los modelos actuales (como Llama-3-Visi
 Anclaje de Respuestas (Looping): Ante la falta de progreso, el modelo tiende a repetir la última acción exitosa almacenada en su contexto, ignorando las instrucciones negativas de "no repitas este botón".
 
 Navegación entre Mapas: El paso de una zona interior (Casa) a una exterior (Pueblo) confunde la lógica de coordenadas, ya que el sistema de visión no percibe el cambio de escala del mapa de forma intuitiva.
+
+Cómo instalarlo y prepararlo.
+Para que alguien pueda usar tu proyecto, puedes añadir este bloque de "Instalación" en tu repositorio:
+
+Clonar el repo: git clone https://github.com/innomeus/mgaf-pr.git
+
+Instalar dependencias: pip install -r requirements.txt
+
+Configurar API Key.
+
+Añadir ROM: Coloca tu archivo pokemon_red.gb en la carpeta raíz.
+
+Ejecutar: python groq_agent_main.py
