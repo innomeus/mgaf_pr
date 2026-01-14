@@ -31,3 +31,21 @@ Configurar API Key.
 Añadir ROM: Coloca tu archivo pokemon_red.gb en la carpeta raíz.
 
 Ejecutar: python groq_agent_main.py
+
+Tree del proyecto:
+POKEMON-RED-AI-AGENT/
+├── core/                       # Lógica principal del sistema
+│   ├── dialog_detector.py      # Detección de cajas de texto y menús
+│   ├── event_checker.py        # Validador de hitos mediante memoria RAM
+│   ├── llm_planner.py          # Cerebro del agente (Conexión con Groq)
+│   ├── memory_buffer.py        # Historial de acciones y detección de bucles
+│   └── progress_tracker.py     # Seguimiento de waypoints y estancamiento
+├── config/                     # Base de conocimientos del juego
+│   ├── events.json             # Direcciones de memoria y flags de la ROM
+│   ├── objectives.json         # Jerarquía de misiones (Estratégico/Atómico)
+│   ├── skills.json             # Guía de batalla y tipos para la IA
+│   └── waypoints.json          # Coordenadas exactas para navegación
+├── groq_agent_main.py          # Script de ejecución principal
+├── test_modules.py             # Suite de pruebas unitarias para cada módulo
+├── requirements.txt            # Dependencias (PyBoy, Groq, OpenCV, etc.)
+└── README.md                   # Documentación del proyecto
