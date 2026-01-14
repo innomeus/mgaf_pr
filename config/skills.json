@@ -1,0 +1,67 @@
+{
+  "battle_logic": [
+    "Identificar debilidades de tipo (Agua > Fuego, Planta > Agua, Electricidad > Volador, Lucha > Roca/Normal).",
+    "Priorizar movimientos de daño sobre movimientos de estado en batallas contra entrenadores.",
+    "Si la salud es < 30%, usar poción o cambiar Pokémon.",
+    "No usar ataques de tipo Normal contra tipos Fantasma.",
+    "Contra Brock (Roca): Usar Agua, Planta o Lucha.",
+    "Contra Misty (Agua): Usar Planta o Eléctrico.",
+	"Contra Lt. Surge (Eléctrico): Usar Tierra (inmune a la electricidad).",
+	"Contra Erika (Planta): Usar Fuego, Volador, Hielo o Bicho.",
+	"Contra Koga (Veneno): Usar Psíquico o Tierra.",
+	"Contra Sabrina (Psíquico): Usar Bicho, Fantasma.",
+	"Contra Blaine (Fuego): Usar Agua, Tierra o Roca.",
+	"Contra Giovanni (Tierra): Usar Agua, Planta o Hielo.",
+    "Si el Pokémon rival es mucho más fuerte, huir (B + seleccionar Run).",
+	"Si es un entrenador rival no puedes huir",
+	"Priorizar ataques cuyo tipo coincida con el tipo del Pokémon propio (bono STAB).",
+    "Si el Pokémon está paralizado (PAR), dormido (SLP) o confundido, usar objeto de cura de estado inmediatamente.",
+    "Contra Lorelei (Hielo/Agua): Usar Eléctrico o Lucha.",
+    "Contra Bruno (Lucha/Roca): Usar Volador, Psíquico o Agua.",
+    "Contra Agatha (Fantasma/Veneno): Usar Psíquico o Tierra (evitar Normal/Lucha).",
+    "Contra Lance (Dragón): Usar Hielo o Eléctrico (para Gyarados/Aerodactyl).",
+    "Si el movimiento tiene 0 PP, seleccionar el siguiente ataque más efectivo disponible."
+  ],
+  "exploration_logic": [
+    "Si hay una pared, intentar otra dirección (rotar: UP→RIGHT→DOWN→LEFT).",
+    "Hablar con todos los NPCs para desbloquear eventos (presionar A frente a personas).",
+    "Si el inventario está lleno, ir a un PC y depositar objetos.",
+    "Guardar la partida después de eventos importantes (START → SAVE).",
+    "Si ves hierba alta y tienes Poké Balls, considera capturar Pokémon nuevos.",
+    "Usar Repel antes de entrar a cuevas largas para evitar encuentros molestos.",
+    "Si ves un objeto en el suelo (Poké Ball sprite), recogerlo con A.",
+	"Si los PS del equipo están bajos (<30%), buscar el Centro Pokémon más cercano.",
+    "Si un Pokémon está debilitado, usar Revivir o visitar a la Enfermera Joy inmediatamente.",
+    "Al entrar a una ciudad nueva, explorar todas las casas para buscar ítems ocultos o MTs.",
+    "Si encuentras un obstáculo (árbol pequeño/roca), verificar si algún Pokémon tiene MO Corte/Fuerza.",
+    "Antes de entrar a un Gimnasio, comprar suficientes Pociones y Antídotos en la Tienda.",
+    "Si un camino parece bloqueado, buscar interruptores o NPCs que den pistas sobre la ruta.",
+    "Interactuar con espacios vacíos en callejones o esquinas para encontrar Objetos Ocultos (Itemfinder)."
+  ],
+  "menu_navigation": [
+    "Usar 'START' para acceder a la mochila, Pokémon, guardar y configuración.",
+    "Usar 'A' para interactuar/seleccionar/confirmar.",
+    "Usar 'B' para cancelar/salir/retroceder en menús.",
+    "En combate: A para seleccionar ataque, B para volver al menú principal.",
+    "Para usar objeto en combate: Seleccionar ITEM con A, elegir objeto, elegir Pokémon.",
+    "Para cambiar Pokémon en combate: Seleccionar POKEMON con A, elegir otro Pokémon."
+  ],
+  "dialog_handling": [
+    "Si ves una caja de texto con diálogo, presionar A repetidamente hasta que desaparezca.",
+    "Si el texto dice 'Yes/No', elegir según contexto (generalmente Yes para avanzar).",
+    "No presionar B durante diálogos importantes (puede rechazar opciones)."
+  ],
+  "item_management": [
+    "Comprar 5 Poké Balls cuando tengas dinero de sobra (Mart en cualquier ciudad) o te quedes sin ellas",
+	"Comprar 5 Super Balls cuando tengas dinero de sobra (Mart en cualquier ciudad) o te quedes sin ellas y esten disponobles, prioriza estas a las Poke Balls",
+	"Comprar 5 Ultra Balls cuando tengas dinero de sobra (Mart en cualquier ciudad) o te quedes sin ellas y esten disponobles, prioriza estas a las Poke Balls y las Super Balls",
+	"Usar la Master Ball solo para Mewtwo",
+    "Comprar 5 pociones cuando tengas dinero de sobra (Mart en cualquier ciudad) o te quedes sin ellas",
+	"Comprar 5 Super pociones cuando tengas dinero de sobra (Mart en cualquier ciudad) o te quedes sin ellas y esten disponobles, prioriza estas a las pociones",
+	"Comprar 5 hiper pociones cuando tengas dinero de sobra (Mart en cualquier ciudad) o te quedes sin ellas y esten disponobles, prioriza estas a las pociones y las Super pociones",
+	"Comprar Repels antes de entrar a Mt. Moon o Rock Tunnel, pero recuerda que el Repel solo funciona si tu primer Pokémon tiene más nivel que los salvajes de la zona.",
+    "No vender objetos importantes (HMs, Key Items)",
+    "Los objetos clave que no uses (Cañas, Bicicleta en cuevas) deben ir al PC para no bloquear la recogida de nuevos objetos o TMs únicos.",
+    "Comprar Poke Doll en el Celadon Dept. Store, para asegurar la huida de encuentros peligrosos."
+	]
+}

@@ -1,0 +1,789 @@
+{
+  "waypoints": {
+    "phase_1_getting_started": {
+      "exit_bedroom": [
+        {"map": 38, "x": 3, "y": 0, "description": "Near door"},
+        {"map": 38, "x": 3, "y": 1, "description": "At door"}
+      ],
+      "go_downstairs": [
+        {"map": 0, "x": 5, "y": 6, "description": "Top of stairs"},
+        {"map": 0, "x": 5, "y": 8, "description": "Bottom of stairs"}
+      ],
+      "exit_home": [
+        {"map": 0, "x": 4, "y": 11, "description": "Near exit door"},
+        {"map": 1, "x": 5, "y": 5, "description": "Outside home"}
+      ],
+      "try_leave_pallet": [
+        {"map": 1, "x": 10, "y": 11, "description": "Path to Route 1"},
+        {"map": 1, "x": 10, "y": 13, "description": "Oak stops you"}
+      ],
+      "go_to_oak_lab": [
+        {"map": 1, "x": 13, "y": 11, "description": "Near Oak's lab"},
+        {"map": 37, "x": 5, "y": 11, "description": "Inside lab"}
+      ],
+      "get_pokedex": [
+        {"map": 37, "x": 4, "y": 4, "description": "Near Oak"},
+        {"map": 37, "x": 3, "y": 4, "description": "Talking to Oak"}
+      ]
+    },
+    
+    "phase_2_viridian_city": {
+      "reach_route_1": [
+        {"map": 1, "x": 10, "y": 14, "description": "Entering Route 1"},
+        {"map": 12, "x": 10, "y": 0, "description": "On Route 1"}
+      ],
+      "traverse_route_1": [
+        {"map": 12, "x": 10, "y": 9, "description": "Mid Route 1"},
+        {"map": 12, "x": 10, "y": 17, "description": "Near Viridian"}
+      ],
+      "enter_viridian_city": [
+        {"map": 12, "x": 10, "y": 18, "description": "Viridian entrance"},
+        {"map": 2, "x": 10, "y": 0, "description": "In Viridian City"}
+      ],
+      "viridian_pokemart": [
+        {"map": 2, "x": 23, "y": 9, "description": "Near Pokemart"},
+        {"map": 54, "x": 3, "y": 7, "description": "Inside Pokemart"}
+      ],
+      "get_oaks_parcel": [
+        {"map": 54, "x": 3, "y": 4, "description": "At counter"}
+      ],
+      "return_to_pallet": [
+        {"map": 2, "x": 10, "y": 1, "description": "Leaving Viridian"},
+        {"map": 12, "x": 10, "y": 17, "description": "Route 1 return"},
+        {"map": 1, "x": 10, "y": 11, "description": "Back in Pallet"}
+      ],
+      "deliver_parcel": [
+        {"map": 37, "x": 4, "y": 4, "description": "Oak receives parcel"}
+      ]
+    },
+    
+    "phase_3_first_pokemon": {
+      "get_starter": [
+        {"map": 37, "x": 7, "y": 4, "description": "Near Pokeballs"},
+        {"map": 37, "x": 8, "y": 4, "description": "Choosing starter"}
+      ],
+      "rival_battle_oak_lab": [
+        {"map": 37, "x": 4, "y": 6, "description": "Rival approaches"}
+      ]
+    },
+    
+    "phase_4_route_22_optional": {
+      "route_22_entrance": [
+        {"map": 2, "x": 0, "y": 9, "description": "West of Viridian"},
+        {"map": 33, "x": 29, "y": 5, "description": "On Route 22"}
+      ]
+    },
+    
+    "phase_5_route_2_viridian_forest": {
+      "viridian_to_route_2": [
+        {"map": 2, "x": 10, "y": 26, "description": "North Viridian"},
+        {"map": 13, "x": 10, "y": 43, "description": "On Route 2"}
+      ],
+      "enter_viridian_forest": [
+        {"map": 13, "x": 10, "y": 18, "description": "Forest entrance"},
+        {"map": 51, "x": 17, "y": 47, "description": "Inside forest"}
+      ],
+      "traverse_forest": [
+        {"map": 51, "x": 17, "y": 40, "description": "Early forest"},
+        {"map": 51, "x": 8, "y": 24, "description": "Mid forest"},
+        {"map": 51, "x": 17, "y": 18, "description": "Near exit"}
+      ],
+      "exit_forest": [
+        {"map": 51, "x": 17, "y": 0, "description": "Forest exit"},
+        {"map": 13, "x": 10, "y": 10, "description": "Back on Route 2"}
+      ]
+    },
+    
+    "phase_6_pewter_city": {
+      "enter_pewter": [
+        {"map": 13, "x": 10, "y": 0, "description": "Pewter entrance"},
+        {"map": 3, "x": 10, "y": 17, "description": "In Pewter City"}
+      ],
+      "pewter_pokecenter": [
+        {"map": 3, "x": 7, "y": 9, "description": "Near Pokecenter"},
+        {"map": 58, "x": 3, "y": 7, "description": "Inside Pokecenter"}
+      ],
+      "pewter_pokemart": [
+        {"map": 3, "x": 17, "y": 9, "description": "Near Pokemart"},
+        {"map": 54, "x": 3, "y": 7, "description": "Inside Pokemart"}
+      ],
+      "pewter_museum": [
+        {"map": 3, "x": 10, "y": 5, "description": "Museum entrance"},
+        {"map": 52, "x": 5, "y": 7, "description": "Inside museum"}
+      ],
+      "pewter_gym": [
+        {"map": 3, "x": 23, "y": 9, "description": "Near gym"},
+        {"map": 54, "x": 4, "y": 13, "description": "Inside Pewter Gym"}
+      ],
+      "brock_battle": [
+        {"map": 54, "x": 4, "y": 2, "description": "Before Brock"}
+      ]
+    },
+    
+    "phase_7_route_3_mount_moon": {
+      "route_3_entrance": [
+        {"map": 3, "x": 30, "y": 9, "description": "East Pewter"},
+        {"map": 14, "x": 0, "y": 8, "description": "On Route 3"}
+      ],
+      "route_3_pokecenter": [
+        {"map": 14, "x": 35, "y": 8, "description": "Route 3 Pokecenter"},
+        {"map": 58, "x": 3, "y": 7, "description": "Inside"}
+      ],
+      "mount_moon_entrance": [
+        {"map": 14, "x": 60, "y": 8, "description": "Mt Moon entrance"},
+        {"map": 59, "x": 14, "y": 35, "description": "Mt Moon 1F"}
+      ],
+      "mount_moon_b1f": [
+        {"map": 59, "x": 5, "y": 17, "description": "Stairs to B1F"},
+        {"map": 60, "x": 25, "y": 31, "description": "Mt Moon B1F"}
+      ],
+      "mount_moon_b2f": [
+        {"map": 60, "x": 13, "y": 7, "description": "Stairs to B2F"},
+        {"map": 61, "x": 15, "y": 19, "description": "Mt Moon B2F"}
+      ],
+      "dome_fossil_area": [
+        {"map": 61, "x": 10, "y": 7, "description": "Fossil area"}
+      ],
+      "exit_mount_moon": [
+        {"map": 61, "x": 25, "y": 5, "description": "Exit stairs"},
+        {"map": 15, "x": 5, "y": 8, "description": "Route 4"}
+      ]
+    },
+    
+    "phase_8_cerulean_city": {
+      "enter_cerulean": [
+        {"map": 15, "x": 0, "y": 8, "description": "Route 4 exit"},
+        {"map": 4, "x": 19, "y": 9, "description": "In Cerulean"}
+      ],
+      "cerulean_pokecenter": [
+        {"map": 4, "x": 13, "y": 9, "description": "Near Pokecenter"},
+        {"map": 58, "x": 3, "y": 7, "description": "Inside"}
+      ],
+      "cerulean_gym": [
+        {"map": 4, "x": 8, "y": 5, "description": "Near gym"},
+        {"map": 65, "x": 4, "y": 13, "description": "Inside Cerulean Gym"}
+      ],
+      "misty_battle": [
+        {"map": 65, "x": 4, "y": 3, "description": "Before Misty"}
+      ],
+      "robbed_house": [
+        {"map": 4, "x": 13, "y": 19, "description": "Robbed house"},
+        {"map": 70, "x": 2, "y": 7, "description": "Inside"}
+      ],
+      "route_24_bridge": [
+        {"map": 4, "x": 10, "y": 1, "description": "North Cerulean"},
+        {"map": 16, "x": 10, "y": 31, "description": "Nugget Bridge"}
+      ],
+      "nugget_bridge_battles": [
+        {"map": 16, "x": 10, "y": 25, "description": "Bridge trainer 1"},
+        {"map": 16, "x": 10, "y": 19, "description": "Bridge trainer 3"},
+        {"map": 16, "x": 10, "y": 13, "description": "Bridge trainer 5"}
+      ]
+    },
+    
+    "phase_9_route_25_bill": {
+      "route_25_entrance": [
+        {"map": 16, "x": 10, "y": 7, "description": "Route 25 start"},
+        {"map": 25, "x": 0, "y": 3, "description": "On Route 25"}
+      ],
+      "bills_house": [
+        {"map": 25, "x": 44, "y": 3, "description": "Near Bill's house"},
+        {"map": 88, "x": 2, "y": 7, "description": "Inside Bill's"}
+      ],
+      "help_bill": [
+        {"map": 88, "x": 4, "y": 4, "description": "Bill's PC"}
+      ],
+      "get_ss_ticket": [
+        {"map": 88, "x": 2, "y": 4, "description": "Receive SS Ticket"}
+      ]
+    },
+    
+    "phase_10_route_5_underground": {
+      "route_5_entrance": [
+        {"map": 4, "x": 10, "y": 19, "description": "South Cerulean"},
+        {"map": 17, "x": 10, "y": 0, "description": "On Route 5"}
+      ],
+      "underground_path_entrance": [
+        {"map": 17, "x": 10, "y": 14, "description": "Underground entrance"},
+        {"map": 77, "x": 2, "y": 7, "description": "Underground Path"}
+      ],
+      "underground_path_exit": [
+        {"map": 77, "x": 2, "y": 2, "description": "Path exit"},
+        {"map": 18, "x": 10, "y": 0, "description": "Route 6"}
+      ]
+    },
+    
+    "phase_11_vermilion_city": {
+      "enter_vermilion": [
+        {"map": 18, "x": 10, "y": 17, "description": "Route 6 exit"},
+        {"map": 5, "x": 10, "y": 0, "description": "In Vermilion"}
+      ],
+      "vermilion_pokecenter": [
+        {"map": 5, "x": 7, "y": 9, "description": "Near Pokecenter"},
+        {"map": 58, "x": 3, "y": 7, "description": "Inside"}
+      ],
+      "vermilion_pokemart": [
+        {"map": 5, "x": 17, "y": 9, "description": "Near Pokemart"},
+        {"map": 54, "x": 3, "y": 7, "description": "Inside"}
+      ],
+      "pokemon_fan_club": [
+        {"map": 5, "x": 6, "y": 19, "description": "Fan Club house"},
+        {"map": 90, "x": 2, "y": 7, "description": "Inside Fan Club"}
+      ],
+      "ss_anne_entrance": [
+        {"map": 5, "x": 18, "y": 19, "description": "Near dock"},
+        {"map": 94, "x": 10, "y": 17, "description": "SS Anne dock"}
+      ],
+      "ss_anne_interior": [
+        {"map": 95, "x": 27, "y": 8, "description": "SS Anne 1F"},
+        {"map": 96, "x": 27, "y": 8, "description": "SS Anne 2F"},
+        {"map": 101, "x": 2, "y": 4, "description": "Captain's room"}
+      ],
+      "get_cut": [
+        {"map": 101, "x": 4, "y": 3, "description": "Receive Cut HM"}
+      ],
+      "vermilion_gym": [
+        {"map": 5, "x": 6, "y": 5, "description": "Near gym"},
+        {"map": 92, "x": 4, "y": 13, "description": "Inside gym"}
+      ],
+      "lt_surge_battle": [
+        {"map": 92, "x": 4, "y": 2, "description": "Before Lt. Surge"}
+      ]
+    },
+    
+    "phase_12_diglett_cave_route_11": {
+      "route_11_entrance": [
+        {"map": 5, "x": 29, "y": 9, "description": "East Vermilion"},
+        {"map": 20, "x": 0, "y": 8, "description": "On Route 11"}
+      ],
+      "diglett_cave_entrance": [
+        {"map": 20, "x": 59, "y": 8, "description": "Cave entrance"},
+        {"map": 197, "x": 5, "y": 4, "description": "Inside Diglett's Cave"}
+      ],
+      "diglett_cave_exit": [
+        {"map": 197, "x": 15, "y": 31, "description": "Cave exit"},
+        {"map": 15, "x": 5, "y": 17, "description": "Route 2 (revisit)"}
+      ]
+    },
+    
+    "phase_13_rock_tunnel": {
+      "route_9_entrance": [
+        {"map": 4, "x": 29, "y": 9, "description": "East Cerulean"},
+        {"map": 41, "x": 0, "y": 8, "description": "On Route 9"}
+      ],
+      "route_10_north": [
+        {"map": 41, "x": 47, "y": 8, "description": "Route 9 exit"},
+        {"map": 43, "x": 10, "y": 0, "description": "Route 10 north"}
+      ],
+      "rock_tunnel_entrance": [
+        {"map": 43, "x": 10, "y": 8, "description": "Tunnel entrance"},
+        {"map": 82, "x": 15, "y": 3, "description": "Rock Tunnel 1F"}
+      ],
+      "rock_tunnel_b1f": [
+        {"map": 82, "x": 25, "y": 15, "description": "Stairs to B1F"},
+        {"map": 232, "x": 25, "y": 3, "description": "Rock Tunnel B1F"}
+      ],
+      "rock_tunnel_exit": [
+        {"map": 232, "x": 5, "y": 17, "description": "Exit stairs"},
+        {"map": 43, "x": 10, "y": 33, "description": "Route 10 south"}
+      ]
+    },
+    
+    "phase_14_lavender_town": {
+      "enter_lavender": [
+        {"map": 43, "x": 10, "y": 40, "description": "Route 10 exit"},
+        {"map": 6, "x": 3, "y": 9, "description": "In Lavender Town"}
+      ],
+      "lavender_pokecenter": [
+        {"map": 6, "x": 5, "y": 9, "description": "Near Pokecenter"},
+        {"map": 58, "x": 3, "y": 7, "description": "Inside"}
+      ],
+      "pokemon_tower": [
+        {"map": 6, "x": 9, "y": 5, "description": "Near tower"},
+        {"map": 142, "x": 10, "y": 17, "description": "Tower 1F"}
+      ]
+    },
+    
+    "phase_15_celadon_city": {
+      "route_8_entrance": [
+        {"map": 6, "x": 0, "y": 9, "description": "West Lavender"},
+        {"map": 37, "x": 47, "y": 8, "description": "On Route 8"}
+      ],
+      "underground_path_7_8": [
+        {"map": 37, "x": 17, "y": 8, "description": "Underground entrance"},
+        {"map": 78, "x": 2, "y": 7, "description": "Underground path"},
+        {"map": 21, "x": 17, "y": 8, "description": "Route 7"}
+      ],
+      "enter_celadon": [
+        {"map": 21, "x": 0, "y": 8, "description": "Route 7 exit"},
+        {"map": 7, "x": 29, "y": 9, "description": "In Celadon City"}
+      ],
+      "celadon_pokecenter": [
+        {"map": 7, "x": 17, "y": 9, "description": "Near Pokecenter"},
+        {"map": 58, "x": 3, "y": 7, "description": "Inside"}
+      ],
+      "celadon_department_store": [
+        {"map": 7, "x": 21, "y": 5, "description": "Near dept store"},
+        {"map": 122, "x": 10, "y": 7, "description": "Dept Store 1F"}
+      ],
+      "get_eevee": [
+        {"map": 131, "x": 1, "y": 1, "description": "Mansion back door"},
+        {"map": 165, "x": 1, "y": 7, "description": "Receive Eevee"}
+      ],
+      "game_corner": [
+        {"map": 7, "x": 9, "y": 13, "description": "Near Game Corner"},
+        {"map": 180, "x": 9, "y": 13, "description": "Inside Game Corner"}
+      ],
+      "team_rocket_hideout": [
+        {"map": 180, "x": 17, "y": 3, "description": "Secret stairs"},
+        {"map": 199, "x": 25, "y": 19, "description": "Hideout B1F"}
+      ],
+      "giovanni_battle_hideout": [
+        {"map": 213, "x": 25, "y": 3, "description": "Giovanni B4F"}
+      ],
+      "get_silph_scope": [
+        {"map": 213, "x": 25, "y": 3, "description": "Receive Silph Scope"}
+      ],
+      "celadon_gym": [
+        {"map": 7, "x": 5, "y": 19, "description": "Near gym"},
+        {"map": 134, "x": 4, "y": 13, "description": "Inside gym"}
+      ],
+      "erika_battle": [
+        {"map": 134, "x": 4, "y": 3, "description": "Before Erika"}
+      ]
+    },
+    
+    "phase_16_pokemon_tower_marowak": {
+      "tower_2f": [
+        {"map": 142, "x": 10, "y": 9, "description": "Stairs up"},
+        {"map": 143, "x": 10, "y": 9, "description": "Tower 2F"}
+      ],
+      "tower_3f": [
+        {"map": 143, "x": 10, "y": 9, "description": "Stairs up"},
+        {"map": 144, "x": 10, "y": 9, "description": "Tower 3F"}
+      ],
+      "tower_4f": [
+        {"map": 144, "x": 10, "y": 3, "description": "Stairs up"},
+        {"map": 145, "x": 10, "y": 9, "description": "Tower 4F"}
+      ],
+      "tower_5f": [
+        {"map": 145, "x": 10, "y": 9, "description": "Stairs up"},
+        {"map": 146, "x": 10, "y": 9, "description": "Tower 5F"}
+      ],
+      "tower_6f": [
+        {"map": 146, "x": 10, "y": 3, "description": "Stairs up"},
+        {"map": 147, "x": 10, "y": 9, "description": "Tower 6F"}
+      ],
+      "marowak_ghost": [
+        {"map": 147, "x": 10, "y": 9, "description": "Ghost Marowak"}
+      ],
+      "tower_7f": [
+        {"map": 147, "x": 10, "y": 3, "description": "Stairs up"},
+        {"map": 148, "x": 10, "y": 9, "description": "Tower 7F"}
+      ],
+      "rescue_mr_fuji": [
+        {"map": 148, "x": 10, "y": 3, "description": "Mr. Fuji"}
+      ],
+      "get_pokeflute": [
+        {"map": 149, "x": 3, "y": 3, "description": "Receive Poke Flute"}
+      ]
+    },
+    
+    "phase_17_saffron_city": {
+      "route_8_to_saffron": [
+        {"map": 37, "x": 10, "y": 8, "description": "Route 8 gate"},
+        {"map": 8, "x": 29, "y": 9, "description": "In Saffron"}
+      ],
+      "saffron_pokecenter": [
+        {"map": 8, "x": 13, "y": 9, "description": "Near Pokecenter"},
+        {"map": 58, "x": 3, "y": 7, "description": "Inside"}
+      ],
+      "silph_co_entrance": [
+        {"map": 8, "x": 19, "y": 5, "description": "Near Silph Co"},
+        {"map": 181, "x": 10, "y": 17, "description": "Silph Co 1F"}
+      ],
+      "silph_co_2f": [
+        {"map": 181, "x": 20, "y": 9, "description": "Stairs to 2F"},
+        {"map": 207, "x": 13, "y": 9, "description": "Silph Co 2F"}
+      ],
+      "silph_co_key_card": [
+        {"map": 212, "x": 2, "y": 11, "description": "Card Key room"}
+      ],
+      "giovanni_battle_silph": [
+        {"map": 234, "x": 7, "y": 3, "description": "Giovanni 11F"}
+      ],
+      "rescue_president": [
+        {"map": 234, "x": 3, "y": 3, "description": "President freed"}
+      ],
+      "get_master_ball": [
+        {"map": 234, "x": 3, "y": 3, "description": "Receive Master Ball"}
+      ],
+      "fighting_dojo": [
+        {"map": 8, "x": 9, "y": 5, "description": "Near dojo"},
+        {"map": 177, "x": 4, "y": 11, "description": "Inside dojo"}
+      ],
+      "saffron_gym": [
+        {"map": 8, "x": 21, "y": 13, "description": "Near gym"},
+        {"map": 178, "x": 8, "y": 17, "description": "Inside gym"}
+      ],
+      "sabrina_battle": [
+        {"map": 178, "x": 17, "y": 3, "description": "Before Sabrina"}
+      ]
+    },
+    
+    "phase_18_route_12_fishing": {
+      "route_11_to_12": [
+        {"map": 20, "x": 30, "y": 17, "description": "Route 11 south"},
+        {"map": 44, "x": 30, "y": 0, "description": "On Route 12"}
+      ],
+      "snorlax_route_12": [
+        {"map": 44, "x": 30, "y": 25, "description": "Snorlax blocking"}
+      ],
+      "fishing_guru": [
+        {"map": 44, "x": 10, "y": 31, "description": "Get Super Rod"}
+      ]
+    },
+    
+    "phase_19_fuchsia_city": {
+      "route_12_to_13": [
+        {"map": 44, "x": 30, "y": 41, "description": "Route 12 end"},
+        {"map": 45, "x": 30, "y": 0, "description": "Route 13"}
+      ],
+      "route_13_to_14": [
+        {"map": 45, "x": 17, "y": 9, "description": "Route 13 end"},
+        {"map": 46, "x": 47, "y": 9, "description": "Route 14"}
+      ],
+      "route_14_to_15": [
+        {"map": 46, "x": 10, "y": 24, "description": "Route 14 end"},
+        {"map": 47, "x": 10, "y": 0, "description": "Route 15"}
+      ],
+      "enter_fuchsia": [
+        {"map": 47, "x": 10, "y": 17, "description": "Route 15 end"},
+        {"map": 9, "x": 10, "y": 0, "description": "In Fuchsia"}
+      ],
+      "fuchsia_pokecenter": [
+        {"map": 9, "x": 7, "y": 9, "description": "Near Pokecenter"},
+        {"map": 58, "x": 3, "y": 7, "description": "Inside"}
+      ],
+      "safari_zone": [
+        {"map": 9, "x": 18, "y": 5, "description": "Safari entrance"},
+        {"map": 136, "x": 7, "y": 4, "description": "Safari gate"}
+      ],
+      "get_surf": [
+        {"map": 150, "x": 19, "y": 24, "description": "Secret House"},
+        {"map": 150, "x": 3, "y": 3, "description": "Receive Surf HM"}
+      ],
+      "get_gold_teeth": [
+        {"map": 151, "x": 7, "y": 7, "description": "Gold Teeth"}
+      ],
+      "warden_house": [
+        {"map": 9, "x": 15, "y": 13, "description": "Warden's house"},
+        {"map": 133, "x": 2, "y": 4, "description": "Give teeth"}
+      ],
+      "get_strength": [
+        {"map": 133, "x": 2, "y": 4, "description": "Receive Strength"}
+      ],
+      "fuchsia_gym": [
+        {"map": 9, "x": 5, "y": 13, "description": "Near gym"},
+        {"map": 149, "x": 4, "y": 17, "description": "Inside gym"}
+      ],
+      "koga_battle": [
+        {"map": 149, "x": 4, "y": 3, "description": "Before Koga"}
+      ]
+    },
+	
+    "phase_20_seafoam_islands": {
+      "route_19_entrance": [
+        {"map": 9, "x": 10, "y": 19, "description": "South Fuchsia"},
+        {"map": 48, "x": 10, "y": 0, "description": "On Route 19"}
+      ],
+      "route_20_entrance": [
+        {"map": 48, "x": 10, "y": 41, "description": "Route 19 end"},
+        {"map": 60, "x": 0, "y": 3, "description": "On Route 20"}
+      ],
+      "seafoam_entrance": [
+        {"map": 60, "x": 17, "y": 3, "description": "Seafoam entrance"},
+        {"map": 169, "x": 17, "y": 17, "description": "Seafoam 1F"}
+      ],
+      "seafoam_b1f": [
+        {"map": 169, "x": 17, "y": 3, "description": "Stairs to B1F"},
+        {"map": 170, "x": 17, "y": 17, "description": "Seafoam B1F"}
+      ],
+      "seafoam_b2f": [
+        {"map": 170, "x": 7, "y": 7, "description": "Stairs to B2F"},
+        {"map": 171, "x": 7, "y": 14, "description": "Seafoam B2F"}
+      ],
+      "seafoam_b3f": [
+        {"map": 171, "x": 17, "y": 7, "description": "Stairs to B3F"},
+        {"map": 172, "x": 17, "y": 14, "description": "Seafoam B3F"}
+      ],
+      "seafoam_b4f_articuno": [
+        {"map": 172, "x": 7, "y": 7, "description": "Stairs to B4F"},
+        {"map": 173, "x": 7, "y": 14, "description": "Seafoam B4F"},
+        {"map": 173, "x": 15, "y": 7, "description": "Articuno location"}
+      ],
+      "seafoam_exit": [
+        {"map": 173, "x": 25, "y": 14, "description": "Exit to Cinnabar"},
+        {"map": 60, "x": 47, "y": 3, "description": "Route 20 west"}
+      ]
+    },
+    
+    "phase_21_cinnabar_island": {
+      "enter_cinnabar": [
+        {"map": 60, "x": 47, "y": 3, "description": "Route 20 end"},
+        {"map": 10, "x": 10, "y": 3, "description": "In Cinnabar"}
+      ],
+      "cinnabar_pokecenter": [
+        {"map": 10, "x": 7, "y": 9, "description": "Near Pokecenter"},
+        {"map": 58, "x": 3, "y": 7, "description": "Inside"}
+      ],
+      "cinnabar_lab": [
+        {"map": 10, "x": 9, "y": 13, "description": "Near lab"},
+        {"map": 164, "x": 2, "y": 7, "description": "Lab entrance"}
+      ],
+      "revive_fossils": [
+        {"map": 165, "x": 1, "y": 3, "description": "Fossil revival room"}
+      ],
+      "get_amber": [
+        {"map": 166, "x": 2, "y": 1, "description": "Old Amber room"}
+      ],
+      "pokemon_mansion": [
+        {"map": 10, "x": 5, "y": 5, "description": "Near mansion"},
+        {"map": 165, "x": 5, "y": 27, "description": "Mansion 1F"}
+      ],
+      "mansion_2f": [
+        {"map": 165, "x": 5, "y": 6, "description": "Stairs to 2F"},
+        {"map": 213, "x": 5, "y": 27, "description": "Mansion 2F"}
+      ],
+      "mansion_3f": [
+        {"map": 213, "x": 25, "y": 6, "description": "Stairs to 3F"},
+        {"map": 214, "x": 5, "y": 27, "description": "Mansion 3F"}
+      ],
+      "mansion_b1f": [
+        {"map": 165, "x": 25, "y": 6, "description": "Stairs to B1F"},
+        {"map": 165, "x": 5, "y": 27, "description": "Mansion B1F"}
+      ],
+      "get_secret_key": [
+        {"map": 216, "x": 1, "y": 10, "description": "Secret Key location"}
+      ],
+      "cinnabar_gym": [
+        {"map": 10, "x": 21, "y": 9, "description": "Near gym"},
+        {"map": 166, "x": 16, "y": 17, "description": "Inside gym"}
+      ],
+      "blaine_battle": [
+        {"map": 166, "x": 2, "y": 3, "description": "Before Blaine"}
+      ]
+    },
+    
+    "phase_22_viridian_gym_giovanni": {
+      "return_viridian": [
+        {"map": 10, "x": 10, "y": 3, "description": "Leave Cinnabar"},
+        {"map": 60, "x": 47, "y": 3, "description": "Route 20"},
+        {"map": 19, "x": 10, "y": 0, "description": "Route 19"},
+        {"map": 9, "x": 10, "y": 0, "description": "Fuchsia"},
+        {"map": 2, "x": 10, "y": 9, "description": "Back in Viridian"}
+      ],
+      "viridian_gym_open": [
+        {"map": 2, "x": 18, "y": 5, "description": "Gym now open"},
+        {"map": 45, "x": 16, "y": 17, "description": "Inside Viridian Gym"}
+      ],
+      "viridian_gym_trainers": [
+        {"map": 45, "x": 16, "y": 15, "description": "Trainer 1"},
+        {"map": 45, "x": 10, "y": 11, "description": "Trainer 2"},
+        {"map": 45, "x": 2, "y": 7, "description": "Trainer 3"}
+      ],
+      "giovanni_battle_gym": [
+        {"map": 45, "x": 16, "y": 3, "description": "Before Giovanni"}
+      ],
+      "get_earth_badge": [
+        {"map": 45, "x": 16, "y": 3, "description": "Receive Earth Badge"}
+      ]
+    },
+    
+    "phase_23_victory_road": {
+      "route_22_revisit": [
+        {"map": 2, "x": 0, "y": 9, "description": "West Viridian"},
+        {"map": 33, "x": 29, "y": 5, "description": "On Route 22"}
+      ],
+      "rival_battle_route_22": [
+        {"map": 33, "x": 11, "y": 5, "description": "Rival battle"}
+      ],
+      "route_23_entrance": [
+        {"map": 33, "x": 9, "y": 5, "description": "Badge check"},
+        {"map": 34, "x": 9, "y": 71, "description": "On Route 23"}
+      ],
+      "route_23_guards": [
+        {"map": 34, "x": 9, "y": 62, "description": "Guard 1 - Boulder"},
+        {"map": 34, "x": 9, "y": 51, "description": "Guard 2 - Cascade"},
+        {"map": 34, "x": 9, "y": 40, "description": "Guard 3 - Thunder"},
+        {"map": 34, "x": 9, "y": 29, "description": "Guard 4 - Rainbow"},
+        {"map": 34, "x": 9, "y": 18, "description": "Guard 5 - Soul"},
+        {"map": 34, "x": 9, "y": 7, "description": "Guard 6 - Marsh"}
+      ],
+      "victory_road_entrance": [
+        {"map": 34, "x": 9, "y": 0, "description": "Victory Road entrance"},
+        {"map": 108, "x": 8, "y": 17, "description": "Victory Road 1F"}
+      ],
+      "victory_road_2f": [
+        {"map": 108, "x": 27, "y": 7, "description": "Stairs to 2F"},
+        {"map": 194, "x": 0, "y": 7, "description": "Victory Road 2F"}
+      ],
+      "victory_road_3f": [
+        {"map": 194, "x": 26, "y": 17, "description": "Stairs to 3F"},
+        {"map": 198, "x": 0, "y": 7, "description": "Victory Road 3F"}
+      ],
+      "victory_road_exit": [
+        {"map": 198, "x": 7, "y": 2, "description": "Exit stairs"},
+        {"map": 108, "x": 8, "y": 0, "description": "Near Pokemon League"}
+      ]
+    },
+    
+    "phase_24_pokemon_league": {
+      "pokemon_league_entrance": [
+        {"map": 108, "x": 8, "y": 0, "description": "League gate"},
+        {"map": 11, "x": 5, "y": 11, "description": "Indigo Plateau"}
+      ],
+      "league_pokecenter": [
+        {"map": 11, "x": 3, "y": 8, "description": "Near Pokecenter"},
+        {"map": 58, "x": 3, "y": 7, "description": "Inside - HEAL UP!"}
+      ],
+      "elite_four_entrance": [
+        {"map": 11, "x": 8, "y": 5, "description": "Elite Four entrance"},
+        {"map": 245, "x": 5, "y": 16, "description": "Elite Four lobby"}
+      ],
+      "lorelei_room": [
+        {"map": 245, "x": 5, "y": 0, "description": "Lorelei's door"},
+        {"map": 245, "x": 5, "y": 3, "description": "Before Lorelei"}
+      ],
+      "lorelei_battle": [
+        {"map": 245, "x": 5, "y": 3, "description": "Battle Lorelei (Ice)"}
+      ],
+      "bruno_room": [
+        {"map": 246, "x": 5, "y": 16, "description": "After Lorelei"},
+        {"map": 246, "x": 5, "y": 3, "description": "Before Bruno"}
+      ],
+      "bruno_battle": [
+        {"map": 246, "x": 5, "y": 3, "description": "Battle Bruno (Fighting)"}
+      ],
+      "agatha_room": [
+        {"map": 247, "x": 5, "y": 16, "description": "After Bruno"},
+        {"map": 247, "x": 5, "y": 3, "description": "Before Agatha"}
+      ],
+      "agatha_battle": [
+        {"map": 247, "x": 5, "y": 3, "description": "Battle Agatha (Ghost)"}
+      ],
+      "lance_room": [
+        {"map": 248, "x": 5, "y": 16, "description": "After Agatha"},
+        {"map": 248, "x": 5, "y": 3, "description": "Before Lance"}
+      ],
+      "lance_battle": [
+        {"map": 248, "x": 5, "y": 3, "description": "Battle Lance (Dragon)"}
+      ],
+      "champion_room": [
+        {"map": 118, "x": 5, "y": 16, "description": "After Lance"},
+        {"map": 118, "x": 3, "y": 7, "description": "Champion room"}
+      ],
+      "rival_final_battle": [
+        {"map": 118, "x": 3, "y": 2, "description": "Final battle vs Rival"}
+      ],
+      "hall_of_fame": [
+        {"map": 118, "x": 6, "y": 8, "description": "Enter Hall of Fame"},
+        {"map": 118, "x": 6, "y": 12, "description": "Hall of Fame cutscene"}
+      ]
+    },
+    
+    "phase_25_post_game_optional": {
+      "cerulean_cave_entrance": [
+        {"map": 4, "x": 27, "y": 5, "description": "North Cerulean"},
+        {"map": 85, "x": 27, "y": 30, "description": "Cerulean Cave entrance"}
+      ],
+      "cerulean_cave_1f": [
+        {"map": 85, "x": 27, "y": 19, "description": "Cave 1F"},
+        {"map": 85, "x": 4, "y": 6, "description": "Stairs down"}
+      ],
+      "cerulean_cave_b1f": [
+        {"map": 85, "x": 4, "y": 6, "description": "Stairs to B1F"},
+        {"map": 235, "x": 27, "y": 25, "description": "Cave B1F"}
+      ],
+      "cerulean_cave_2f": [
+        {"map": 85, "x": 27, "y": 8, "description": "Stairs to 2F"},
+        {"map": 234, "x": 11, "y": 9, "description": "Cave 2F"}
+      ],
+      "mewtwo_location": [
+        {"map": 235, "x": 27, "y": 7, "description": "Before Mewtwo"}
+      ],
+      "catch_mewtwo": [
+        {"map": 235, "x": 27, "y": 7, "description": "Battle Mewtwo (Lv70)"}
+      ]
+    }
+  },
+  
+  "legendary_pokemon": {
+    "articuno": [
+      {"map": 173, "x": 15, "y": 7, "description": "Seafoam Islands B4F"}
+    ],
+    "zapdos": [
+      {"map": 83, "x": 7, "y": 3, "description": "Power Plant"}
+    ],
+    "moltres": [
+      {"map": 61, "x": 10, "y": 3, "description": "Victory Road 2F"}
+    ],
+    "mewtwo": [
+      {"map": 235, "x": 27, "y": 7, "description": "Cerulean Cave B1F"}
+    ],
+    "snorlax_1": [
+      {"map": 44, "x": 30, "y": 25, "description": "Route 12"}
+    ],
+    "snorlax_2": [
+      {"map": 13, "x": 10, "y": 31, "description": "Route 16"}
+    ]
+  },
+  
+  "important_items": {
+    "cut": [
+      {"map": 101, "x": 4, "y": 3, "description": "SS Anne - Captain"}
+    ],
+    "fly": [
+      {"map": 47, "x": 17, "y": 7, "description": "Route 16 - near girl"}
+    ],
+    "surf": [
+      {"map": 150, "x": 3, "y": 3, "description": "Safari Zone - Secret House"}
+    ],
+    "strength": [
+      {"map": 133, "x": 2, "y": 4, "description": "Fuchsia - Warden"}
+    ],
+    "flash": [
+      {"map": 15, "x": 10, "y": 8, "description": "Route 2 - Professor's Aide"}
+    ],
+    "bike_voucher": [
+      {"map": 90, "x": 4, "y": 3, "description": "Vermilion - Fan Club"}
+    ],
+    "bike": [
+      {"map": 54, "x": 3, "y": 3, "description": "Cerulean - Bike Shop"}
+    ],
+    "ss_ticket": [
+      {"map": 88, "x": 2, "y": 4, "description": "Bill's House"}
+    ],
+    "poke_flute": [
+      {"map": 149, "x": 3, "y": 3, "description": "Lavender - Mr. Fuji"}
+    ],
+    "silph_scope": [
+      {"map": 213, "x": 25, "y": 3, "description": "Rocket Hideout B4F"}
+    ],
+    "master_ball": [
+      {"map": 234, "x": 3, "y": 3, "description": "Silph Co - President"}
+    ],
+    "exp_all": [
+      {"map": 15, "x": 10, "y": 5, "description": "Route 15 - Professor's Aide"}
+    ],
+    "good_rod": [
+      {"map": 9, "x": 8, "y": 8, "description": "Fuchsia - Fishing Guru"}
+    ],
+    "super_rod": [
+      {"map": 44, "x": 10, "y": 31, "description": "Route 12 - Fishing Guru"}
+    ],
+    "itemfinder": [
+      {"map": 33, "x": 15, "y": 5, "description": "Route 11 - Professor's Aide"}
+    ]
+  }
+}

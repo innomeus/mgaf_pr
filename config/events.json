@@ -1,0 +1,192 @@
+{
+  "game_state": {
+    "player_name": "0xD158",
+    "rival_name": "0xD159",
+    "money": {
+      "bcd1": "0xD347",
+      "bcd2": "0xD348",
+      "bcd3": "0xD349"
+    },
+    "badge_count": "0xD356",
+    "party_count": "0xD163",
+    "party_species": "0xD164",
+    "party_levels_base": "0xD18C",
+    "current_map": "0xD35E",
+    "player_x": "0xD361",
+    "player_y": "0xD362",
+    "in_battle": "0xD057"
+  },
+  "key_items": {
+    "town_map": "0xD31D",
+    "bike": "0xD31E",
+    "surfboard": "0xD31F",
+    "poke_flute": "0xD74C",
+    "secret_key": "0xD75F",
+    "bike_voucher": "0xD75A",
+    "gold_teeth": "0xD75B",
+    "lift_key": "0xD75C",
+    "card_key": "0xD81F",
+    "silph_scope": "0xD827",
+    "itemfinder": "0xD7F3",
+    "old_rod": "0xD803",
+    "good_rod": "0xD804",
+    "super_rod": "0xD805",
+    "ss_ticket": "0xD7F2",
+    "coin_case": "0xD842"
+  },
+  "hms": {
+    "hm01_cut": "0xD857",
+    "hm02_fly": "0xD858",
+    "hm03_surf": "0xD859",
+    "hm04_strength": "0xD85A",
+    "hm05_flash": "0xD85B"
+  },
+  "story_flags": {
+    "oak_parcel_delivered": {
+      "address": "0xD74E",
+      "bit": 0,
+      "description": "Oak's Parcel delivered to Oak"
+    },
+    "pokedex_obtained": {
+      "address": "0xD74B",
+      "bit": 0,
+      "description": "Received Pokedex from Oak"
+    },
+    "got_starter": {
+      "address": "0xD747",
+      "bit": 0,
+      "description": "Received starter Pokemon from Oak"
+    },
+    "rival_battle_lab": {
+      "address": "0xD75E",
+      "bit": 0,
+      "description": "Battled rival in Oak's lab"
+    },
+    "defeated_brock": {
+      "address": "0xD755",
+      "bit": 0,
+      "description": "Defeated Brock in Pewter Gym"
+    },
+    "defeated_misty": {
+      "address": "0xD755",
+      "bit": 1,
+      "description": "Defeated Misty in Cerulean Gym"
+    },
+    "defeated_lt_surge": {
+      "address": "0xD755",
+      "bit": 2,
+      "description": "Defeated Lt. Surge in Vermilion Gym"
+    },
+    "defeated_erika": {
+      "address": "0xD755",
+      "bit": 3,
+      "description": "Defeated Erika in Celadon Gym"
+    },
+    "defeated_koga": {
+      "address": "0xD755",
+      "bit": 4,
+      "description": "Defeated Koga in Fuchsia Gym"
+    },
+    "defeated_sabrina": {
+      "address": "0xD755",
+      "bit": 5,
+      "description": "Defeated Sabrina in Saffron Gym"
+    },
+    "defeated_blaine": {
+      "address": "0xD755",
+      "bit": 6,
+      "description": "Defeated Blaine in Cinnabar Gym"
+    },
+    "defeated_giovanni": {
+      "address": "0xD755",
+      "bit": 7,
+      "description": "Defeated Giovanni in Viridian Gym"
+    },
+    "ss_anne_left": {
+      "address": "0xD803",
+      "bit": 0,
+      "description": "S.S. Anne has left port"
+    },
+    "bill_helped": {
+      "address": "0xD7F0",
+      "bit": 0,
+      "description": "Helped Bill and received S.S. Ticket"
+    },
+    "rocket_hideout_cleared": {
+      "address": "0xD77E",
+      "bit": 7,
+      "description": "Defeated Giovanni in Rocket Hideout"
+    },
+    "silph_co_cleared": {
+      "address": "0xD838",
+      "bit": 7,
+      "description": "Cleared Silph Co. and defeated Giovanni"
+    },
+    "got_lapras": {
+      "address": "0xD7F1",
+      "bit": 0,
+      "description": "Received Lapras from Silph Co. employee"
+    },
+    "pokemon_tower_cleared": {
+      "address": "0xD7EB",
+      "bit": 7,
+      "description": "Cleared Pokemon Tower and saved Mr. Fuji"
+    },
+    "fossils_revived": {
+      "address": "0xD7BC",
+      "bit": 0,
+      "description": "Revived fossils at Cinnabar Lab"
+    }
+  },
+  "map_ids": {
+    "pallet_town": 0,
+    "viridian_city": 1,
+    "pewter_city": 2,
+    "cerulean_city": 3,
+    "lavender_town": 4,
+    "vermilion_city": 5,
+    "celadon_city": 6,
+    "fuchsia_city": 7,
+    "cinnabar_island": 8,
+    "indigo_plateau": 9,
+    "saffron_city": 10,
+    "route_1": 12,
+    "route_2": 13,
+    "route_3": 14,
+    "route_4": 15,
+    "route_5": 16,
+    "route_6": 17,
+    "route_7": 18,
+    "route_8": 19,
+    "route_9": 20,
+    "route_10": 21,
+    "route_11": 22,
+    "route_12": 23,
+    "route_13": 24,
+    "route_14": 25,
+    "route_15": 26,
+    "route_16": 27,
+    "route_17": 28,
+    "route_18": 29,
+    "route_19": 30,
+    "route_20": 31,
+    "route_21": 32,
+    "route_22": 33,
+    "route_23": 34,
+    "route_24": 35,
+    "route_25": 36,
+    "players_house_1f": 37,
+    "players_house_2f": 38,
+    "oaks_lab": 39,
+    "viridian_forest": 51,
+    "mt_moon": 59,
+    "rock_tunnel": 82,
+    "victory_road": 108,
+    "pokemon_tower": 142,
+    "silph_co": 181,
+    "safari_zone": 136,
+    "power_plant": 83,
+    "seafoam_islands": 159,
+    "pokemon_mansion": 165
+  }
+}

@@ -1,0 +1,229 @@
+{
+  "objective_hierarchy": {
+    "layer_1_strategic": [
+      {
+        "id": "PHASE_1_BEGINNING",
+        "goal": "Obtener las primeras 2 medallas y salir de la zona inicial",
+        "layer_2_tactical": [
+          {
+            "id": "L2_PALLET_VIRIDIAN",
+            "goal": "Completar el tutorial y obtener la Pokédex",
+            "layer_3_atomic": [
+              "Sacar la poción del PC de casa",
+              "Intentar ir al norte hacia la hierba alta (Oak te detendrá)",
+              "Ir al laboratorio de Oak",
+              "Elegir Pokémon inicial (Squirtle recomendado para Brock)",
+              "Derrotar al rival en el laboratorio",
+              "Ir a Viridian City (norte de Pallet Town)",
+              "Ir a la tienda Mart → Recibir el Parcel de Oak",
+              "Volver a Pallet Town",
+              "Entregar Parcel a Oak en su laboratorio",
+              "Recibir la Pokédex de Oak",
+			  "Obtener el Mapa en casa del Rival (opcional pero útil)"
+            ]
+          },
+          {
+            "id": "L2_BROCK",
+            "goal": "Derrotar al líder de gimnasio Brock (Boulder Badge)",
+            "layer_3_atomic": [
+              "Comprar Poké Balls en Viridian Mart (al menos 5)",
+              "Comprar Potions (al menos 3)",
+              "Ir al norte desde Viridian → Route 2",
+              "Cruzar Viridian Forest",
+              "Llegar a Pewter City",
+              "Capturar Pokémon de respaldo en Route 2 o 22 (Nidoran, Mankey)",
+              "Entrenar equipo a nivel 12-14 peleando contra trainers",
+              "Entrar al gimnasio de Pewter (edificio norte)",
+              "Derrotar a Brock usando ataques de Agua o Planta",
+              "Recibir Boulder Badge y TM34"
+            ]
+          },
+          {
+            "id": "L2_MT_MOON_MISTY",
+            "goal": "Cruzar Mt. Moon y derrotar a Misty (Cascade Badge)",
+            "layer_3_atomic": [
+              "Salir de Pewter hacia el este → Route 3",
+              "Llegar al Pokémon Center, curar equipo",
+              "Comprar Repels si hay dinero",
+              "Entrar a Mt. Moon (cueva grande)",
+			  "Derrotar a los miembros del Team Rocket en la cueva",
+              "Atravesar Mt. Moon hacia la salida este",
+              "Elegir fósil (Helix o Dome) al final de Mt. Moon",
+              "Salir a Route 4 → Llegar a Cerulean City",
+              "Ir al norte → Nugget Bridge",
+			  "Derrotar al Rival antes de entrar al puente",
+			  "Derrotar a 5 trainers en Nugget Bridge",
+			  "Rechazar la invitación del Team Rocket al final del puente",
+              "Ir a la casa de Bill (noreste)",
+              "Ayudar a Bill → Recibir S.S. Ticket",
+              "Volver a Cerulean City",
+              "Entrenar equipo a nivel 18-20",
+              "Entrar al gimnasio de Cerulean (edificio azul)",
+              "Derrotar a Misty usando ataques de Planta o Eléctrico",
+              "Recibir Cascade Badge y TM11"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "PHASE_2_MIDGAME",
+        "goal": "Obtener HMs esenciales (Cut, Fly, Surf) y medallas 3 y 4",
+        "layer_2_tactical": [
+          {
+            "id": "L2_VERMILION_SURGE",
+            "goal": "Obtener HM01 (Cut) y derrotar a Lt. Surge (Thunder Badge)",
+            "layer_3_atomic": [
+              "Desde Cerulean, ir al sur (casa robada, derrotar al ladrón)",
+			  "Obtener TM28 (Dig) del ladrón del Team Rocket, hablar despues de derrotar",
+              "Bajar por Underground Path hacia el sur",
+              "Llegar a Vermilion City",
+			  "Ir al Fan Club Pokémon y escuchar al presidente para obtener el Bike Voucher",
+              "Ir al puerto → Entrar al S.S. Anne (usar S.S. Ticket)",
+              "Explorar el barco, derrotar trainers",
+			  "Derrotar al Rival en la cubierta del barco",
+              "Encontrar al Capitán en su camarote",
+              "Hablar con el Capitán → Recibir HM01 (Cut)",
+              "Enseñar Cut a un Pokémon compatible",
+              "Ir al gimnasio de Vermilion",
+              "Resolver el puzzle de basura (dos switches correctos)",
+              "Derrotar a Lt. Surge usando ataques de Tierra",
+              "Recibir Thunder Badge y TM24"
+            ]
+          },
+          {
+            "id": "L2_ROCK_TUNNEL_CELADON",
+            "goal": "Cruzar Rock Tunnel y llegar a Celadon City",
+            "layer_3_atomic": [
+              "Volver a Cerulean City",
+			  "Canjear el Bike Voucher en la tienda de bicis",
+              "Ir al este (usar Cut en el arbusto) → Route 9",
+              "Cruzar Route 9 hacia el este",
+			  "Llegar al Centro Pokémon de la Ruta 10",
+			  "Obtener HM05 (Flash) del ayudante de Oak en la Ruta 2 (vía Diglett's Cave)",
+              "Entrar a Rock Tunnel (cueva oscura)",
+              "Atravesar Rock Tunnel (pegarse a las paredes)",
+              "Salir a Route 10",
+              "Llegar a Lavender Town",
+              "Ir al oeste desde Lavender → Underground Path",
+              "Llegar a Celadon City",
+              "Explorar Celadon (ciudad grande)",
+              "Ir al edificio Mansion (trasero) → Recibir Eevee",
+              "Comprar Piedras evolutivas en Celadon Mart si quieres",
+			  "Obtener la Tea de la anciana en la Mansión Azul (necesaria para Saffron)"
+            ]
+          },
+          {
+            "id": "L2_ERIKA_ROCKET",
+            "goal": "Limpiar el Casino Rocket, obtener Silph Scope y medalla Arcoíris",
+            "layer_3_atomic": [
+              "Derrotar a Erika en el gimnasio de Celadon (tipo Planta)",
+              "Entrar al Game Corner (Casino)",
+              "Encontrar el poster secreto → Rocket Hideout",
+              "Encontrar Llave del Ascensor en el Hideout",
+              "Derrotar a Giovanni → Obtener Silph Scope",
+              "Volar o caminar de regreso a Lavender Town",
+              "Entrar a Pokémon Tower (torre grande)",
+			  "Derrotar al Rival en el segundo piso",
+              "Usar Silph Scope para ver fantasmas",
+			  "Derrotar/Ahuyentar al espíritu de Marowak",
+              "Llegar a la cima, salvar a Mr. Fuji",
+              "Recibir Poké Flute de Mr. Fuji"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "PHASE_3_OPEN_WORLD",
+        "goal": "Desbloquear el mapa completo (Saffron, Safari, Seafoam)",
+        "layer_2_tactical": [
+          {
+            "id": "L2_SAFARI_KOGA",
+            "goal": "Obtener HM03 (Surf), HM04 (Strength) y medalla Alma",
+            "layer_3_atomic": [
+              "Despertar Snorlax con Poké Flute (oeste de Celadon o sur de Lavender",
+			  "Obtener HM02 (Fly) en la casa oculta de la Ruta 16 ",
+              "Llegar a Fuchsia City (Cycling Road o Silence Bridge)",
+              "Entrar a Safari Zone",
+              "Llegar a Casa Secreta en Safari → Obtener HM03 (Surf)",
+              "Encontrar Dientes de Oro en Safari Zone",
+              "Dar los Dientes al Guarda → Obtener HM04 (Strength)",
+              "Derrotar a Koga en el gimnasio (tipo Veneno)",
+			  "Recibir Soul Badge y TM06"
+            ]
+          },
+          {
+            "id": "L2_SAFFRON_SILPH",
+            "goal": "Liberar Silph Co. y derrotar a Sabrina (Marsh Badge)",
+            "layer_3_atomic": [
+              "Ir a Saffron City (dar Té/Refresco a los guardias)",
+              "Entrar a Silph Co. (edificio grande centro)",
+              "Obtener Card Key en piso 5",
+			  "Derrotar al Rival en el piso 7",
+			  "Hablar con el empleado cercano para obtener a Lapras",
+              "Usar teletransportadores para navegar",
+              "Derrotar a Giovanni en piso 11",
+              "Recibir Master Ball",
+			  "Derrotar a los entrenadores del Dojo Lucha para obtener a Hitmonlee o Hitmonchan (opcional)",
+              "Derrotar a Sabrina en el gimnasio (tipo Psíquico)"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "PHASE_4_ENDGAME",
+        "goal": "Conseguir las últimas medallas y ganar la Liga Pokémon",
+        "layer_2_tactical": [
+          {
+            "id": "L2_CINNABAR_BLAINE",
+            "goal": "Llegar a la isla y derrotar a Blaine (Volcano Badge)",
+            "layer_3_atomic": [
+              "Volar a Pallet Town",
+              "Usar Surf al sur (Route 21)",
+              "Llegar a Cinnabar Island",
+              "Entrar a Pokémon Mansion",
+			  "Activar los interruptores de las estatuas para abrir puertas",
+              "Encontrar Llave Secreta en el Mansion",
+              "Abrir gimnasio de Cinnabar",
+              "Responder Quiz o luchar en el gimnasio",
+              "Derrotar a Blaine (tipo Fuego)"
+            ]
+          },
+          {
+            "id": "L2_VIRIDIAN_GIOVANNI",
+            "goal": "La última medalla (Earth Badge)",
+            "layer_3_atomic": [
+              "Volar a Viridian City",
+              "Entrar al gimnasio (ahora está abierto)",
+			  "Superar el puzzle de cintas transportadoras",
+              "Derrotar a Giovanni (tipo Tierra/Roca)",
+              "Recibir Earth Badge",
+			  "Confirmar que Giovanni disuelve el Team Rocket",
+              "Curar equipo y comprar Max Potions / Revives"
+            ]
+          },
+          {
+            "id": "L2_VICTORY_ROAD_E4",
+            "goal": "Cruzar la Calle Victoria y vencer al Alto Mando",
+            "layer_3_atomic": [
+              "Ir al oeste de Viridian → Route 22",
+			  "Derrotar al Rival por última vez antes de la Liga",
+              "Enseñar badges a la entrada de Victory Road",
+              "Atravesar Victory Road (requiere Strength y Surf)",
+			  "Mover las rocas sobre los interruptores blancos",
+              "Llegar a Indigo Plateau",
+              "Gestión de inventario final (Elixires, Full Restores)",
+              "Batalla 1: Lorelei (tipo Hielo)",
+              "Batalla 2: Bruno (tipo Lucha)",
+              "Batalla 3: Agatha (tipo Fantasma)",
+              "Batalla 4: Lance (tipo Dragón)",
+              "Batalla Final: Rival (Champion)",
+			  "Entrar al Hall of Fame con el Prof. Oak",
+			  "Esperar a ver el Hall of Fame y creditos del juego",
+			  "Cuando salga el menu de inicio, pulsar en Continuar"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
